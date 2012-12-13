@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674DD9051679971E00B17B30 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 674DD9041679971E00B17B30 /* Config.h */; };
+		674DD9071679975B00B17B30 /* iTMDb_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 674DD9061679975B00B17B30 /* iTMDb_Prefix.pch */; };
+		674DD9081679982200B17B30 /* TMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB1F6512833F5300F84FEB /* TMDB.m */; };
+		674DD9091679982200B17B30 /* TMDBToken.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF437ED1283450900F5CC92 /* TMDBToken.m */; };
+		674DD90A1679982200B17B30 /* TMDBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFA3EB212863A78002B9E38 /* TMDBImage.m */; };
+		674DD90B1679982200B17B30 /* TMDBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF4389E12834E6600F5CC92 /* TMDBMovie.m */; };
+		674DD90C1679982200B17B30 /* TMDBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3242CC12CBEF2F00063558 /* TMDBPerson.m */; };
+		674DD90D1679982200B17B30 /* TMDBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF43A0F12835F9400F5CC92 /* TMDBRequest.m */; };
+		674DD9111679984F00B17B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674DD9101679984F00B17B30 /* Foundation.framework */; };
+		674DD912167998E500B17B30 /* iTMDb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA985847128309AA0074F570 /* iTMDb.h */; };
+		674DD913167998E500B17B30 /* TMDBDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAF43A20128361C400F5CC92 /* TMDBDelegate.h */; };
+		674DD914167998E500B17B30 /* TMDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AABB1F6412833F5300F84FEB /* TMDB.h */; };
+		674DD915167998E500B17B30 /* TMDBToken.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAF437EC1283450900F5CC92 /* TMDBToken.h */; };
+		674DD916167998E500B17B30 /* TMDBImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAFA3EB112863A77002B9E38 /* TMDBImage.h */; };
+		674DD917167998E500B17B30 /* TMDBMovie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAF4389D12834E6600F5CC92 /* TMDBMovie.h */; };
+		674DD918167998E500B17B30 /* TMDBPerson.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA3242CB12CBEF2F00063558 /* TMDBPerson.h */; };
+		674DD919167998E500B17B30 /* TMDBRequestDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAF437F51283464D00F5CC92 /* TMDBRequestDelegate.h */; };
+		674DD91A167998E500B17B30 /* TMDBRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAF43A0E12835F9400F5CC92 /* TMDBRequest.h */; };
+		674DD91B167999B500B17B30 /* Config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 674DD9041679971E00B17B30 /* Config.h */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		AA3242CD12CBEF2F00063558 /* TMDBPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3242CB12CBEF2F00063558 /* TMDBPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA3242CE12CBEF2F00063558 /* TMDBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3242CC12CBEF2F00063558 /* TMDBPerson.m */; };
@@ -18,7 +37,6 @@
 		AAF438A012834E6600F5CC92 /* TMDBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF4389E12834E6600F5CC92 /* TMDBMovie.m */; };
 		AAF438B012834F6400F5CC92 /* TMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = AABB1F6412833F5300F84FEB /* TMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF438C712834FC400F5CC92 /* TMDBToken.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF437EC1283450900F5CC92 /* TMDBToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF4398D12835AE000F5CC92 /* iTMDb_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF5E0370ADEE00C91783 /* iTMDb_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF43A1012835F9400F5CC92 /* TMDBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF43A0E12835F9400F5CC92 /* TMDBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF43A1112835F9400F5CC92 /* TMDBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF43A0F12835F9400F5CC92 /* TMDBRequest.m */; };
 		AAF43A21128361C400F5CC92 /* TMDBDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF43A20128361C400F5CC92 /* TMDBDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,12 +44,38 @@
 		AAFA3EB412863A78002B9E38 /* TMDBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFA3EB212863A78002B9E38 /* TMDBImage.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		674DD8F6167995F300B17B30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				674DD91B167999B500B17B30 /* Config.h in CopyFiles */,
+				674DD912167998E500B17B30 /* iTMDb.h in CopyFiles */,
+				674DD913167998E500B17B30 /* TMDBDelegate.h in CopyFiles */,
+				674DD914167998E500B17B30 /* TMDB.h in CopyFiles */,
+				674DD915167998E500B17B30 /* TMDBToken.h in CopyFiles */,
+				674DD916167998E500B17B30 /* TMDBImage.h in CopyFiles */,
+				674DD917167998E500B17B30 /* TMDBMovie.h in CopyFiles */,
+				674DD918167998E500B17B30 /* TMDBPerson.h in CopyFiles */,
+				674DD919167998E500B17B30 /* TMDBRequestDelegate.h in CopyFiles */,
+				674DD91A167998E500B17B30 /* TMDBRequest.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF5E0370ADEE00C91783 /* iTMDb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTMDb_Prefix.pch; sourceTree = "<group>"; };
+		674DD8F8167995F300B17B30 /* libiTMDb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiTMDb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		674DD9041679971E00B17B30 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		674DD9061679975B00B17B30 /* iTMDb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTMDb_Prefix.pch; sourceTree = "<group>"; };
+		674DD9101679984F00B17B30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		674DD92316799DCC00B17B30 /* libiTMDb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libiTMDb-Prefix.pch"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* iTMDb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTMDb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3242CB12CBEF2F00063558 /* TMDBPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDBPerson.h; path = Classes/People/TMDBPerson.h; sourceTree = "<group>"; };
@@ -54,6 +98,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		674DD8F5167995F300B17B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674DD9111679984F00B17B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF560486A6940098B216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				8DC2EF5B0486A6940098B216 /* iTMDb.framework */,
+				674DD8F8167995F300B17B30 /* libiTMDb.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +133,7 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				674DD8E6167995AE00B17B30 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			name = iTMDb;
@@ -118,6 +172,7 @@
 		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				674DD9101679984F00B17B30 /* Foundation.framework */,
 				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -126,9 +181,9 @@
 		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
 				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
 				D2F7E79907B2D74100F64583 /* CoreData.framework */,
-				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -136,9 +191,18 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF5E0370ADEE00C91783 /* iTMDb_Prefix.pch */,
+				674DD92316799DCC00B17B30 /* libiTMDb-Prefix.pch */,
+				674DD9061679975B00B17B30 /* iTMDb_Prefix.pch */,
+				674DD9041679971E00B17B30 /* Config.h */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		674DD8E6167995AE00B17B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AA98583C1283080F0074F570 /* Authentication */ = {
@@ -231,7 +295,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF4398D12835AE000F5CC92 /* iTMDb_Prefix.pch in Headers */,
 				AA985848128309AA0074F570 /* iTMDb.h in Headers */,
 				AAF43A21128361C400F5CC92 /* TMDBDelegate.h in Headers */,
 				AAF438B012834F6400F5CC92 /* TMDB.h in Headers */,
@@ -241,12 +304,31 @@
 				AAFA3EB312863A78002B9E38 /* TMDBImage.h in Headers */,
 				AAF43A1012835F9400F5CC92 /* TMDBRequest.h in Headers */,
 				AA3242CD12CBEF2F00063558 /* TMDBPerson.h in Headers */,
+				674DD9051679971E00B17B30 /* Config.h in Headers */,
+				674DD9071679975B00B17B30 /* iTMDb_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		674DD8F7167995F300B17B30 /* libiTMDb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674DD901167995F300B17B30 /* Build configuration list for PBXNativeTarget "libiTMDb" */;
+			buildPhases = (
+				674DD8F4167995F300B17B30 /* Sources */,
+				674DD8F5167995F300B17B30 /* Frameworks */,
+				674DD8F6167995F300B17B30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libiTMDb;
+			productName = libiTMDb;
+			productReference = 674DD8F8167995F300B17B30 /* libiTMDb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8DC2EF4F0486A6940098B216 /* iTMDb */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "iTMDb" */;
@@ -291,6 +373,7 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* iTMDb */,
+				674DD8F7167995F300B17B30 /* libiTMDb */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +389,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		674DD8F4167995F300B17B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674DD9081679982200B17B30 /* TMDB.m in Sources */,
+				674DD9091679982200B17B30 /* TMDBToken.m in Sources */,
+				674DD90A1679982200B17B30 /* TMDBImage.m in Sources */,
+				674DD90B1679982200B17B30 /* TMDBMovie.m in Sources */,
+				674DD90C1679982200B17B30 /* TMDBPerson.m in Sources */,
+				674DD90D1679982200B17B30 /* TMDBRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF540486A6940098B216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,6 +497,65 @@
 			};
 			name = Release;
 		};
+		674DD902167995F300B17B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/libiTMDb.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libiTMDb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INSTALL_PATH = "/../BuildProductsPath/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iTMDb;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		674DD903167995F300B17B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/libiTMDb.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libiTMDb-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INSTALL_PATH = "/../BuildProductsPath/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iTMDb;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +576,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		674DD901167995F300B17B30 /* Build configuration list for PBXNativeTarget "libiTMDb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674DD902167995F300B17B30 /* Debug */,
+				674DD903167995F300B17B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

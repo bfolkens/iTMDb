@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'libiTMDb' target in the 'libiTMDb' project
+//
+
+#ifdef __OBJC__
+    #import <CoreFoundation/CoreFoundation.h>
+    #import <CoreGraphics/CoreGraphics.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "Config.h"

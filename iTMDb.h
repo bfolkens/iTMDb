@@ -6,8 +6,6 @@
 //  Copyright 2010 Apoltix. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 #import "TMDB.h"
 #import "TMDBDelegate.h"
 #import "TMDBToken.h"
